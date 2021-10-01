@@ -8,7 +8,7 @@ This code is based on the video streamer from https://github.com/alwaysai/video-
 # Evaluate Your model
 1. Change ```obj_detect``` in app.py to point to your model (username/model)
 2. Put your zipped dataset into the application folder (Must be PASCALVOC)
-3. Change ```zipped_data``` constant in app.py to point to include your dataset file name
+3. Change ```zipped_data```  in app.py to include your dataset file name
 4. Run the steps below to configure, install, and start
 5. You can change the speed parameters as well with: ```slideShowSpeed```
 
