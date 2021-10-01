@@ -6,10 +6,11 @@ This code is based on the video streamer from https://github.com/alwaysai/video-
 * [alwaysAI Development Tools](https://alwaysai.co/docs/get_started/development_computer_setup.html)
 
 # Evaluate Your model
-1. Change the model parameters in app.py to point to your model (username/model)
-2. Put your zipped dataset into the application folder (Must be PASCALVOC) currently
-3. Run the steps below to configure, install, and start
-4. You can change the speed parameters as well with: ```slideShowSpeed```
+1. Change ```obj_detect``` in app.py to point to your model (username/model)
+2. Put your zipped dataset into the application folder (Must be PASCALVOC)
+3. Change ```zipped_data``` constant in app.py to point to include your dataset file name
+4. Run the steps below to configure, install, and start
+5. You can change the speed parameters as well with: ```slideShowSpeed```
 
 ## Usage
 Once the alwaysAI tools are installed on your development machine (or edge device if developing directly on it) you can install and run the app with the following CLI commands:
