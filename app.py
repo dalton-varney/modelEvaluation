@@ -140,7 +140,6 @@ class CVClient(eventlet_threading.Thread):
                 controller.close()
         print("Completed The Dataset")
         print("F1Score: {:.2f}".format(sum(avgf1)/len(avgf1)))
-        print("MaP: {:.2f}".format(sum(avgmAP)/len(avgmAP)))
         controller.close()
 
     def _convert_image_to_jpeg(self, image):
